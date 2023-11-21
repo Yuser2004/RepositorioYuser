@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                <strong>Top lenguajes de programación más usados.</strong>
+                <h6>Aprendiz: Yuser Palacios</h6>
+            </h1>
+        </div>
+    </header>
+    <div class="contenedor">
+
+        <div class="card">
+            <h3>Python</h3> <br>
+            <p>Python es muy conocidos por todas las personas, ademas me gusta mucho, es bacano y es mi top 1</p>
+            <li>Porque es bonito</li>
+            <li>Porque es facil</li>
+            <li>Porque tiene una culebrita</li>
+            <img id="pruebascript" src="imagenes/python.png" alt="">
+            <button id="boton">soy un boton</button>
+        </div> 
+
+        <div class="card">
+            <h3>C#</h3>
+            <p><strong>¿Por que elegir C#?</strong>
+                C# permite a los desarrolladores crear muchos tipos de <br> aplicaciones seguras y sólidas que se ejecutan en . NET. <br>C# tiene sus raíces en la familia de lenguajes C, y a <br> los programadores de C, C++, Java y JavaScript les resultará familiar inmediatamente.</p>
+            <img src="imagenes/C.png" alt="">
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Ventajas de JavaScript <br>
+                <li>Interactividad en tiempo real. ... <br></li>
+                <li>Detección y respuesta a eventos. ... <br></li>
+                <ol>Manipulación sencilla del DOM. ...  <br></ol>
+                Creación de formularios interactivos. ... <br>
+
+            <img src="imagenes/js.png" alt="">
+        </div>
+        <div class="card">  
+            <h3>PHP</h3>
+            <p>Evoluciona a un ritmo más que satisfactorio en comparación con otras tecnologías. <br> Se caracteriza por ser fácil, potente y profesional. Tiene excelentes frameworks <br> para desarrollar en la web, como Laravel y Symfony.</p>
+            <img src="imagenes/PHP.png" alt="">
+        </div>
+    </div>
+    <div><a href="paginainterna.html">Pagina interna</a></div>
+
+    <script>
+        const prueba = document.getElementById("pruebascript");
+        const boton = document.getElementById('boton')
+
+        boton.onclick = function() {
+            prueba.src = "imagenes/YoProbando.png"
+            prueba.alt = "Hola, soy una imagen";
+        }
+
+   
+
+    </script>
+</body>
+</html>
